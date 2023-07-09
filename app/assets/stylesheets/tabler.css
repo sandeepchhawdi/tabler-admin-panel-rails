@@ -3361,12 +3361,12 @@ fieldset:disabled .btn {
 
 .dropdown-toggle:after {
   content: "";
+  border: solid;
   display: inline-block;
   vertical-align: 0.306em;
   width: 0.36em;
   height: 0.36em;
-  border-bottom: 1px solid;
-  border-left: 1px solid;
+  border-width: 0px 0px 1px 1px;
   margin-right: .1em;
   margin-left: 0.4em;
   transform: rotate(-45deg);

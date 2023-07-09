@@ -3,6 +3,4 @@ import "@hotwired/turbo-rails"
 import "./controllers"
 import * as bootstrap from "bootstrap"
 import ApexCharts from 'apexcharts';
-window.ApexCharts = ApexCharts; // return apex chart 
-import 'tabler/tabler'
-import 'tabler/demo'
+window.ApexCharts = ApexCharts; // return apex chart
