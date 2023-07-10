@@ -1,5 +1,7 @@
 class HomeController < ApplicationController
-  def dashboard
+  def index
+  end
 
+  def form_elements
   end
 end
