@@ -30,7 +30,7 @@ cd tabler-admin-panel-rails
 cp config/database_copy.yml config/database.yml
 ```
 
-Setup your mysql username and password and run below command to setup the database and install dependencies:
+Setup your mysql username and password inside `config/database.yml` file and run below command to setup the database and install dependencies:
 
 ```sh
 bin/setup
