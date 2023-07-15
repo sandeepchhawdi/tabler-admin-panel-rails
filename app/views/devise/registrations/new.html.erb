@@ -20,11 +20,13 @@
         <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control", placeholder: "Enter email" %>
       </div>
       <div class="mb-3">
-        <%= f.label :password, class: "form-label" %>
-        <div class="input-group input-group-flat">
+        <label class="form-label">
+          Password
           <% if @minimum_password_length %>
-            <em>(<%= @minimum_password_length %> characters minimum)</em>
+            <em class="text-danger">(<%= @minimum_password_length %> characters minimum)</em>
           <% end %>
+        </label>
+        <div class="input-group input-group-flat">
           <%= f.password_field :password, autocomplete: "new-password", class: "form-control", placeholder: "Password" %>
           <span class="input-group-text">
             <a href="#" class="link-secondary" title="Show password" data-bs-toggle="tooltip"><!-- Download SVG icon from http://tabler-icons.io/i/eye -->
