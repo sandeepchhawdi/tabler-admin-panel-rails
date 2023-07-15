@@ -31,7 +31,7 @@ noUiSlider.create(document.getElementById('range-color'), {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.Litepicker && (new Litepicker({
     element: document.getElementById('datepicker-default'),
     buttonText: {
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.Litepicker && (new Litepicker({
     element: document.getElementById('datepicker-icon'),
     buttonText: {
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.Litepicker && (new Litepicker({
     element: document.getElementById('datepicker-icon-prepend'),
     buttonText: {
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.Litepicker && (new Litepicker({
     element: document.getElementById('datepicker-inline'),
     buttonText: {
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   var el;
   window.TomSelect && (new TomSelect(el = document.getElementById('select-tags'), {
     copyClassesToDropdown: false,
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   var el;
   window.TomSelect && (new TomSelect(el = document.getElementById('select-tags-advanced'), {
     copyClassesToDropdown: false,
@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   var el;
   window.TomSelect && (new TomSelect(el = document.getElementById('select-users'), {
     copyClassesToDropdown: false,
@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   var el;
   window.TomSelect && (new TomSelect(el = document.getElementById('select-people'), {
     copyClassesToDropdown: false,
@@ -184,7 +184,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   var el;
   window.TomSelect && (new TomSelect(el = document.getElementById('select-countries'), {
     copyClassesToDropdown: false,
@@ -209,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   var el;
   window.TomSelect && (new TomSelect(el = document.getElementById('select-labels'), {
     copyClassesToDropdown: false,
@@ -234,7 +234,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   var el;
   window.TomSelect && (new TomSelect(el = document.getElementById('select-countries-valid'), {
     copyClassesToDropdown: false,
@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   var el;
   window.TomSelect && (new TomSelect(el = document.getElementById('select-countries-invalid'), {
     copyClassesToDropdown: false,

@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-social-referrals'), {
     chart: {
       type: "line",
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-tasks-overview'), {
     chart: {
       type: "bar",
@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-demo-pie'), {
     chart: {
       type: "donut",
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks'), {
     chart: {
       type: "bar",
@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks-2'), {
     chart: {
       type: "line",
@@ -322,7 +322,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks-3'), {
     chart: {
       type: "area",
@@ -391,7 +391,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks-4'), {
     chart: {
       type: "line",
@@ -453,7 +453,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks-5'), {
     chart: {
       type: "line",
@@ -515,7 +515,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks-6'), {
     chart: {
       type: "bar",
@@ -584,7 +584,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks-7'), {
     chart: {
       type: "line",
@@ -646,7 +646,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks-8'), {
     chart: {
       type: "bar",
@@ -717,7 +717,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks-9'), {
     chart: {
       type: "bar",
@@ -789,7 +789,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks-10'), {
     chart: {
       type: "area",
@@ -861,7 +861,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks-11'), {
     chart: {
       type: "area",
@@ -934,7 +934,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-tasks'), {
     chart: {
       type: "line",
@@ -1005,7 +1005,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-line-stroke'), {
     chart: {
       type: "line",
@@ -1070,7 +1070,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-stepline'), {
     chart: {
       type: "line",
@@ -1120,7 +1120,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-temperature'), {
     chart: {
       type: "line",
@@ -1188,7 +1188,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-area'), {
     chart: {
       type: "area",
@@ -1257,7 +1257,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-area-spline'), {
     chart: {
       type: "area",
@@ -1326,7 +1326,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-area-spline-stacked'), {
     chart: {
       type: "area",
@@ -1396,7 +1396,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-spline'), {
     chart: {
       type: "line",
@@ -1458,7 +1458,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-scatter'), {
     chart: {
       type: "scatter",
@@ -1515,7 +1515,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-combination'), {
     chart: {
       type: "bar",

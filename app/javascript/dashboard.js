@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-revenue-bg'), {
     chart: {
       type: "area",
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })).render();
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-new-clients'), {
     chart: {
       type: "line",
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })).render();
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-active-users'), {
     chart: {
       type: "bar",
@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })).render();
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-mentions'), {
     chart: {
       type: "bar",
@@ -248,7 +248,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })).render();
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-activity'), {
     chart: {
       type: "radialBar",
@@ -284,7 +284,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })).render();
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('chart-development-activity'), {
     chart: {
       type: "area",
@@ -346,7 +346,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })).render();
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-1'), {
     chart: {
       type: "line",
@@ -373,7 +373,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })).render();
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-2'), {
     chart: {
       type: "line",
@@ -400,7 +400,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })).render();
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-3'), {
     chart: {
       type: "line",
@@ -427,7 +427,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })).render();
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-4'), {
     chart: {
       type: "line",
@@ -454,7 +454,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })).render();
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-5'), {
     chart: {
       type: "line",
@@ -481,7 +481,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })).render();
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbo:load", function () {
   window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-6'), {
     chart: {
       type: "line",

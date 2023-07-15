@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Tabler | <%= yield(:title) %></title>
+    <!-- CSS files -->
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+  </head>
+  <body  class=" border-top-wide border-primary d-flex flex-column">
+    <div class="page page-center">
+      <%= yield %>
+    </div>
+  </body>
+</html>
